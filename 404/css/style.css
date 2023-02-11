@@ -1,0 +1,82 @@
+body {
+    background-color: #eaeaea;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.e404 {
+    background-image: url(../img/404.png);
+    width: 522px;
+    height: 522px;
+    margin: auto;
+    margin-top: 125px;
+    box-shadow: 0px 0px 10px #c0bfbf;
+    background-position: -150%;
+}
+
+h2 { /*404*/
+    color: rgba(8, 8, 8, 0.827);
+    padding-top: 20px;
+    padding-left: 45px;
+    margin-bottom: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-style: oblique;
+    font-size: 22px;   
+}
+
+hr { 
+    width: 460px;
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #dddddd; /* Цвет линии для остальных браузеров */
+    background-color: #dddddd; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+h1 { /*Sorry*/
+    margin-top: 28.5%;
+    display: flex;
+    justify-content: center;
+    font-size: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.814);
+}
+
+p { /*WE COULDN’T FIND THE PAGE*/
+    color: #aeaeae;
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img { /*sad*/
+    display: flex;
+    justify-content: center;
+}
+
+.button { /*BACK*/
+    display: flex;
+    justify-content: center;
+    margin-top: 19%;
+}
+
+.button button {
+    background-color: #fafbfa;
+    border: 1px solid #9f9e9e;
+    padding: 8px 41px 8px 41px;
+}
+
+button a {
+    color: rgba(8, 8, 8, 0.836);
+}

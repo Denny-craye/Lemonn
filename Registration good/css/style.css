@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: #eaeaea;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  a:hover {
+    opacity: 0.5;
+  }
+
+   /*section-registration*/
+   .section-registration {
+    border: 1px solid #dadada;
+    box-shadow: 0 0 10px #a1a0a0;
+    padding: 10px 60px 30px 60px;
+    margin: 100px 500px 100px 500px;
+    background-color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .registration-r /*login*/ {
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .hr-r {
+    height: 1.2px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.1;
+  }
+
+  .lemon-r /*login for lemon*/ {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: normal;
+    letter-spacing: 1.3px;
+  }
+
+  .text-r {
+    display: block;
+    font-size: 19px; 
+    height: 50px;
+    width: 375px;
+    padding-left: 20px;
+    box-shadow: inset 5px 5px 5px #00000030;
+    border: 1px solid #0000006b;
+    font-family: cursive;
+  }
+
+  .password-r {
+    display: block;
+    font-size: 19px; 
+    height: 50px;
+    width: 375px;
+    margin-top: 25px;
+    padding-left: 20px;
+    border: 1px solid #0000006b;
+    font-family: cursive;
+  }
+
+  .user-r {
+    display: block;
+    font-size: 19px; 
+    height: 50px;
+    width: 375px;
+    margin-top: 25px;
+    padding-left: 20px;
+    border: 1px solid #0000006b;
+    font-family: cursive;
+  } 
+
+  .welcome-r /*email and password*/ {
+    margin-top: 30px;
+
+  }
+
+  .remember-input-r {
+    margin-top: 20px;
+  }
+
+  .remember-r /*remember me*/ {
+    color: #8e8e8e;
+  }
+
+  .forgot-r /*forgot your password?*/ {
+    margin-left: 123px;
+    color: #8e8e8e;
+  }
+
+  .login {
+    border: 1px solid #0000004f;
+     margin-top: 30px;
+    margin-left: 120px;
+    padding: 10px 50px 10px 50px;
+    color: #000000bf;
+  }
+
+  .sign-r {
+    margin-top: 50px;
+  }
+
+  .facebook-i-google-r /*icons*/ {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+
+  .facebook-i-google img {
+    font-size: 30px ;
+  }
+
+  .agree /*Don’t have an accont? Sign in*/ {
+    color: #8e8e8e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  .service {
+    color: #7d94ea;
+    text-decoration: underline;
+    font-size: 16.5px;
+  }
+
+  .exit {
+    color: #000000bf;
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+ 
